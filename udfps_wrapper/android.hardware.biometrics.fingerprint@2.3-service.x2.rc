@@ -11,6 +11,13 @@ on boot
     chown system system /sys/kernel/oppo_display/notify_fppress
     chown system system /sys/kernel/oppo_display/dimlayer_hbm
 
+    chmod 0660 /proc/touchpanel/fod_proxcheck
+    chmod 0660 /proc/touchpanel/fod_screenwake
+    chmod 0660 /proc/touchpanel/fod_tapcheck
+    chown system system /proc/touchpanel/fod_proxcheck
+    chown system system /proc/touchpanel/fod_screenwake
+    chown system system /proc/touchpanel/fod_tapcheck
+
 on post-fs-data
     #FingerprintRelatedDirectories 
     mkdir /data/gf_data 0700 system system
