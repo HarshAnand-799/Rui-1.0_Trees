@@ -140,7 +140,8 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_PACKAGES += \
     NotchBarKiller \
-    NoCutoutOverlay
+    NoCutoutOverlay \
+    RealmeX2WifiOverlay
 
 # Power
 PRODUCT_PACKAGES += \
