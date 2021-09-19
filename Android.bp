@@ -20,17 +20,6 @@ soong_namespace {
 }
 
 android_app_import {
-	name: "WfdService",
-	owner: "realme",
-	apk: "proprietary/priv-app/WfdService/WfdService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "QtiTelephonyService",
 	owner: "realme",
 	apk: "proprietary/product/app/QtiTelephonyService/QtiTelephonyService.apk",
@@ -97,11 +86,5 @@ android_app_import {
 	},
 	privileged: true,
 	product_specific: true,
-}
-
-dex_import {
-	name: "WfdCommon",
-	owner: "realme",
-	jars: ["proprietary/framework/WfdCommon.jar"],
 }
 
