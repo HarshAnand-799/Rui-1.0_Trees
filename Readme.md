@@ -21,4 +21,4 @@ Rear Camera  | 64MP (wide) / 8MP (telephoto) / 2MP (ultrawide) / 2MP (depth)
 Front Camera | 32MP
 
 ## Device picture
-![realme X2](https://csmobiles.com/28289-large_default/realme-x2-6-4-8gb-128gb-dual-sim-pearl-white.jpg "realme X2 in lunar white")
+![realme X2](https://akm-img-a-in.tosshub.com/indiatoday/images/story/202007/realme_x2_green.jpeg?yBn5fkP8MT5XFA1JaSPKERjeQnTOvKKG&size=770:433)
