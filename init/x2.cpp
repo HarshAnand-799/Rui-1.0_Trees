@@ -31,6 +31,7 @@ std::vector<std::string> ro_props_default_source_order = {
     "odm.",
     "product.",
     "system.",
+    "system_ext.",
     "vendor.",
 };
 
@@ -126,6 +127,8 @@ void setRMX(const unsigned int variant)
 
     property_override("ro.build.description", prop[variant].build_fingerprint.c_str());
     property_override("ro.build.product", prop[variant].product_device.c_str());
+    property_override("ro.bootimage.build.fingerprint", prop[variant].build_description.c_str());
+    property_override("ro.vendor.oppo.fingerprint", prop[variant].build_description.c_str());
     for (const auto &source : ro_props_default_source_order)
     {
         set_ro_build_prop(source, "fingerprint", prop[variant].build_description.c_str());
@@ -133,6 +136,9 @@ void setRMX(const unsigned int variant)
         set_ro_product_prop(source, "model", prop[variant].device_build.c_str());
         set_ro_product_prop(source, "name", prop[variant].device_build.c_str());
     }
+
+    // oppo blobs are setting this to true, which kills the macro and other lenses.
+    property_override("ro.vendor.gsi.build.flavor", "none");
 
     // RMX1993 has different ptoduct name due to oversea variants further being divided into spain and europe
     if (variant == 2)
