@@ -171,3 +171,8 @@ on property:vendor.post_boot.parsed=1
     # EAS
     write /proc/sys/kernel/sched_upmigrate 95
     write /proc/sys/kernel/sched_downmigrate 85
+
+on boot
+    # selinux nodes, hide permissive state
+    chmod 0640 /sys/fs/selinux/enforce
+    chmod 0440 /sys/fs/selinux/policy
