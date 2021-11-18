@@ -31,12 +31,13 @@
     <application
         android:icon="@drawable/ic_settings_device"
         android:label="@string/device_title"
-        android:theme="@style/AppTheme">
+        android:theme="@style/Theme.SubSettingsBase">
 
         <!-- Device Settings -->
         <activity
-            android:name=".DeviceSettingsActivity"
-            android:label="@string/device_title">
+            android:name=".DeviceSettingsActivity" 
+            android:label="@string/device_title"
+            android:theme="@style/Theme.SubSettingsBase">
             <intent-filter>
                 <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
                 <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES"/>
@@ -51,7 +52,8 @@
                 android:resource="@string/device_summary" />
         </activity>
 
-        <activity android:name=".DeviceSettings" />
+        <activity android:name=".DeviceSettings" 
+                  android:theme="@style/Theme.SubSettingsBase"/>
 
         <receiver android:name="org.lineageos.settings.device.Startup" >
             <intent-filter android:priority="100" >
