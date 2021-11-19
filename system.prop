@@ -168,6 +168,13 @@ ro.qti.sensors.wu=false
 persist.vendor.ssr.enable_ramdumps=0
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
+# Usb
+persist.vendor.usb.config.extra=none
+vendor.usb.dpl.inst.name=dpl
+vendor.usb.rmnet.func.name=rmnet_bam
+vendor.usb.rmnet.inst.name=rmnet
+vendor.usb.rndis.func.name=rndis_bam
+
 # Zram
 ro.zram.mark_idle_delay_mins=60
 ro.zram.first_wb_delay_mins=1440
