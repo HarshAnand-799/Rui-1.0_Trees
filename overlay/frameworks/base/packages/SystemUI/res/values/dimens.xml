@@ -31,4 +31,7 @@
     default that should be overridden by device-specific overlays. -->
     <dimen name="physical_power_button_center_screen_location_y">1108px</dimen>
 
+    <!-- UDFPS recognizing animation vertical position offset -->
+    <dimen name="udfps_animation_offset">35dp</dimen>
+
 </resources>
