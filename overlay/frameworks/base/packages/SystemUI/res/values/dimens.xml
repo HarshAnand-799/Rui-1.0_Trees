@@ -29,7 +29,7 @@
 
     <!-- Location on the screen of the center of the physical power button. This is a reasonable
     default that should be overridden by device-specific overlays. -->
-    <dimen name="physical_power_button_center_screen_location_y">1108px</dimen>
+    <dimen name="physical_power_button_center_screen_location_y">885px</dimen>
 
     <!-- UDFPS recognizing animation vertical position offset -->
     <dimen name="udfps_animation_offset">35dp</dimen>
