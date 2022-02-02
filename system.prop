@@ -29,6 +29,7 @@ persist.vendor.service.bt.iotinfo.report.enable=true
 # Blurs
 ro.sf.blurs_are_expensive=1
 ro.surface_flinger.supports_background_blur=1
+ro.launcher.blur.appLaunch=0
 
 # Camera
 persist.vendor.camera.light_ae.enable=1
