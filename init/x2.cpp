@@ -91,24 +91,24 @@ void setRMX(const unsigned int variant)
 
     //RMX1991
     prop[0] = {
-        "google/raven/raven:12/SQ1D.220105.007/8030436:user/release-keys",
-        "raven-user 12 SQ1D.220105.007 8030436 release-keys",
+        "qti/qssi/qssi:11/RKQ1.201112.002/root07161728:user/release-keys",
+        "qssi-user 11 RKQ1.201112.002 root07161728 release-keys",
         "RMX1991",
         "RMX1991CN",
     };
 
     //RMX1992
     prop[1] = {
-        "google/raven/raven:12/SQ1D.220105.007/8030436:user/release-keys",
-        "raven-user 12 SQ1D.220105.007 8030436 release-keys",
+        "qti/qssi/qssi:11/RKQ1.201112.002/root07161728:user/release-keys",
+        "qssi-user 11 RKQ1.201112.002 root07161728 release-keys",
         "RMX1992",
         "RMX1992L1",
     };
 
     //RMX1993
     prop[2] = {
-        "google/raven/raven:12/SQ1D.220105.007/8030436:user/release-keys",
-        "raven-user 12 SQ1D.220105.007 8030436 release-keys",
+        "qti/qssi/qssi:11/RKQ1.201112.002/root07161728:user/release-keys",
+        "qssi-user 11 RKQ1.201112.002 root07161728 release-keys",
         "RMX1993",
         "RMX1993L1",
     };

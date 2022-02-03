@@ -20,6 +20,6 @@ PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme X2
 PRODUCT_MANUFACTURER := realme
 
-BUILD_FINGERPRINT := "google/raven/raven:12/SQ1D.220105.007/8030436:user/release-keys"
+BUILD_FINGERPRINT := "qti/qssi/qssi:11/RKQ1.201112.002/root07161728:user/release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
